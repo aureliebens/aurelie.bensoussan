@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Aurélie Bensoussan</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/icone/apple-touch-icon.png">
+		<link rel="icon" type="image/png" href="images/icone/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="images/icone/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="images/icone/favicon-96x96.png" sizes="96x96">
+		<link rel="manifest" href="images/icone/manifest.json">
+		<link rel="mask-icon" href="images/icone/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="assets/css/main.css" />
+				<link rel="stylesheet" href="assets/css/imageviewer.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header" class="preview">
+				<div class="inner">
+					<div class="content">
+					
+						<a href="index.html" class="button big alt"><span>Let's Go</span></a>
+					</div>
+					
+						<a href="index.html" class="button hidden"><img src="images/logo-ab-web blanc.svg" alt="logo" /></a>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="preview">
+				<div class="inner">
+					<div class="image fit"id='img_main'>
+						<img src="images/large/pic11-L.jpg" alt=""  onclick="showInViewerIfMobile(this)"/>
+					</div>
+						<div class="inner">
+						<h2>AQUITANIA</h2> <h5>Branding / Packaging</h5>						
+						<p>Design and logo for a range of regional beers.</p>
+						</div>					
+				</div>
+				<a href="detail10.html" class="nav previous"><span class="fa fa-chevron-left"></span></a>
+				<a href="detail12.html" class="nav next"><span class="fa fa-chevron-right"></span></a>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<a href="#" class="info fa fa-info-circle"><span>About</span></a>
+				<div class="inner">
+					<div class="content">
+						<h3>Aurélie Bensoussan</h3>
+						<h6>Get in touch: <a href=”callto: +33642400627″> +33 642 400 627</a>  | <a href="mailto:a.bensouss@hotmail.fr">a.bensouss@hotmail.fr</a></h6>
+							<h4>Graphic design / Branding / Illustration / Publishing / Packaging / Typography / Photography / Advertising / Webdesign</h4>							
+							<h5>Diplomas</h5>
+							<ul> 				
+								<li><b>2016 / 2017 : First year of master’s degree in Artistic Direction at ECV.</b></li>
+								<li><b>2013 / 2016 : Degree in Graphic Design at ECV (Visual communication School).</b></li>
+								<li><b>2013 : High school diploma in sciences with honours.</li></b>					
+							</ul>
+							
+					</div>
+				
+					<div class="resume">					
+						<h5>Experiences</h5>
+						<ul> 						
+							<li><b>Since August 2016 :</b> Volonteer art director in "De Mary à Marie association".</li>
+							<li><b>Since May 2016 :</b> Volunteer graphic designer for events of LAB, breakdance school.</li>
+							<li><b>Juin–July 2016 :</b> Internship in Petit Poucet studio in Bordeaux (France).</li>					
+							<li><b>Juin–July 2015 :</b> Internship in Ice House Design agency in Bath (England).</li>
+							<li><b>WORKSHOPS:</b> 02.14 Clay modelling with Alban Caumont |
+								02.15 Augmented reality with Guillaume Beinat |
+								01.16 Typography "Objects found" with Jack Usine |
+								02.16 Illustration "Craft, paper and scissors" with Camille Yin |					
+					</div>		
+				</div>
+			</footer>
+			
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/imageviewer.js"></script>
+			<script src="assets/js/jquery.zoom.js"></script>
+			<script>
+				$(document).ready(function(){
+					if(!isMobile()) {
+						$('#img_main').zoom();
+					}
+				});
+			</script>
+
+	</body>
+</html>
